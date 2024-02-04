@@ -1,0 +1,27 @@
+Transform 
+1. translate()
+2. rotate()
+3. scale()
+
+
+Animation
+1. keyframes 
+* 0% , 100%
+* from to
+2. animation-name
+3. animation-duration
+4. animation-iteration-count
+5. animation-delay
+6. animation-direction:
+* normal : Animatsiya oldinga qarab qo'yiladi 
+* reverse : Animatsiya orqaga qarab qo'yiladi
+* alternate : Animatsiya birinchi oldinga, keyin orqaga qarab qo'yiladi
+* alternate-reverse: Animatsiya birinchi orqaga keyin oldinga qarab qo'yiladi 
+7. animation-fill-mode  - animatsiya boshlanishidan oldin va tugagandan keyin , elementimiz o'zining oldingi xosslariga ega bo'ladi, animation-fill-mode orqali buni o'zgartirishimiz mumkin
+* none: animatsiya tugaganidan so'ng , elementning oldingi xossalriga ta'sir qilamydi
+* forwards: element animatsiyaning oxirgi keyframe intervali tomonidan ko'rsatilgan xosslarga ega bo'ladi
+backwards: element animatsiyaning birinchi keyframe intervali tomonidan ko'rsatilgan xossalarga ega bo'ladi
+* both : element animatsiyaning birinchi va oxirgi keyframe intervali tomonnidan ko'rsatilgan xossalarga ega bo'ladi
+8. animation-play-state:
+* running
+* paused
